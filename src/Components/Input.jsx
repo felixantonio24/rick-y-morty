@@ -18,7 +18,7 @@ const SearchInput = ({ onSearch }) => {
         type="text"
         value={searchTerm}
         onChange={handleInputChange}
-        placeholder="Buscar..."
+        placeholder="Ingrese un número del 1 al 126.... "
       />
       <button type="submit">Buscar</button>
     </form>
